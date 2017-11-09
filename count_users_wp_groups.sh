@@ -10,4 +10,5 @@ for file in *.txt; do
 	fi
 done
 
+# Get rid of duplicates:
 cat alluserstemp | sort | uniq > allusers
